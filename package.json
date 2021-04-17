@@ -1,0 +1,16 @@
+{
+  "name": "stats-preview-card",
+  "version": "1.0.0",
+  "description": "Beginnner Level Frontendmentor project to get started",
+  "private": true,
+  "author": "David <davidphilipsumner@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
