@@ -7,7 +7,7 @@ const sourcemaps = require('gulp-sourcemaps')
 const autoprefixer = require("gulp-autoprefixer");
 
 function styles() {
-  return gulp.src('scss/*.scss')
+  return gulp.src('scss/master.scss')
   .pipe(sourcemaps.init())
   .pipe(sass().on('error', sass.logError))
   .pipe(autoprefixer('last 2 versions'))
