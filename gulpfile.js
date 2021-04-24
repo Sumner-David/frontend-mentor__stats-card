@@ -52,7 +52,7 @@ function reload(done) {
 };
 
 function watchFiles(done) {
-  gulp.watch('index.html', reload);
+  gulp.watch('**/*.html', reload);
   gulp.watch('./css/**/*.scss', gulp.series(styles,reload));
   gulp.watch('./tailwind.config.js', gulp.series(styles,reload));
   gulp.watch('./js/*.js', reload)
