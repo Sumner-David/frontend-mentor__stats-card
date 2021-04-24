@@ -9,9 +9,16 @@
     "build": "webpack"
   },
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "browser-sync": "^2.26.14",
     "css-loader": "^5.2.2",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
     "lodash": "^4.17.21",
     "style-loader": "^2.0.0",
     "webpack": "^5.33.2",
